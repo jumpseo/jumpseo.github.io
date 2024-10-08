@@ -12401,3 +12401,7 @@ ul#slide-list{
 		opacity:0;
 	}
 }
+
+.darken{filter: brightness(40%);}
+
+
