@@ -35,6 +35,41 @@
 
     <div id="wrapper">
 
+        <!-- header begin -->
+        <header class="header">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- logo begin -->
+                        <div id="logo">
+                            <a href="index.html">
+                                <img class="logo delta" src="images/logo2.png" alt="">
+                            </a>
+                        </div>
+                        <!-- logo close -->
+
+                        <!-- small button begin -->
+                        <span id="menu-btn"></span>
+                        <!-- small button close -->
+
+                        <!-- mainmenu begin -->
+                        <nav>
+                            <ul id="mainmenu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#section-services">Our Services</a></li>
+                                <li><a href="#section-contact">Contact</a></li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                    <!-- mainmenu close -->
+
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+
         <!-- content begin -->
         <div id="content" class="no-bottom no-top">
 			
@@ -70,7 +105,7 @@
 	                                        <i class="fa fa-star"></i>
 	                                        <i class="fa fa-star"></i>
 	                                    </div>
-		                        		Generating new online leads and clients. Thanks!
+		                        		We're now generating new online leads and clients. Thanks!
 		                        		<span class="d-name">JA Construction</span>
 		                        	</div>
 	                        	</div>
@@ -225,27 +260,27 @@
                                 <i class="icon_clock_alt"></i>
                                 <div class="info-box_text">
                                     <div class="info-box_title">Opening Times</div>
-                                    <div class="info-box_subtite">Monday - Friday: 09:00 - 18:00</div>
+                                    <div class="info-box_subtite">Monday - Saturday: 9am - 5:30pm</div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-4 p-3" data-bgcolor="rgba(0, 0, 0, .4)">
                             <div class="info-box padding20">
-                                <i class="icon_house_alt"></i>
+                                <i class="icon_pin"></i>
                                 <div class="info-box_text">
                                     <div class="info-box_title">Our Location</div>
-                                    <div class="info-box_subtite">100 S Main St, Los Angeles, CA</div>
+                                    <div class="info-box_subtite">Blanchardstown, Dublin 15</div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="col-md-4 p-3" data-bgcolor="rgba(0, 0, 0, .6)">
                             <div class="info-box padding20">
-                                <i class="icon_headphones"></i>
+                                <i class="icon_phone"></i>
                                 <div class="info-box_text">
-                                    <div class="info-box_title">Customer Support</div>
-                                    <div class="info-box_subtite">+208 333 9296</div>
+                                    <div class="info-box_title">Give us a call</div>
+                                    <div class="info-box_subtite">087 332 1076</div>
                                 </div>
                             </div>
                         </div>
@@ -257,28 +292,79 @@
 
           </div>
 
+           <!-- section begin -->
+           <section id="section-contact" class="no-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3 text-center wow fadeInUp">
+                        <h1>Contact Us</h1>
+                        <div class="separator"><span><i class="fa fa-circle"></i></span></div>
+                        <div class="spacer-single"></div>
+                    </div>
+
+                    <div class="col-md-8 wow fadeInLeft">
+                            <form name="contactForm" id='contact_form'
+                            action="https://formspree.io/f/xrbznqjn"
+                            method="POST">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div id='name_error' class='error'>Please enter your name.</div>
+                                    <div>
+                                        <input type='text' name='name' id='name' class="form-control" placeholder="Your Name">
+                                    </div>
+
+                                    <div id='email_error' class='error'>Please enter your valid E-mail ID.</div>
+                                    <div>
+                                        <input type='text' name='email' id='email' class="form-control" placeholder="Your Email">
+                                    </div>
+
+                                    <div id='phone_error' class='error'>Please enter your phone number.</div>
+                                    <div>
+                                        <input type='text' name='phone' id='phone' class="form-control" placeholder="Your Phone">
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div id='message_error' class='error'>Please enter your message.</div>
+                                    <div>
+                                        <textarea name='message' id='message' class="form-control" placeholder="Your Message"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <p id='submit'>
+                                        <input type='submit' id='send_message' value='Submit Form' class="btn btn-line">
+                                    </p>
+                                    <div id='mail_success' class='success'>Your message has been sent successfully.</div>
+                                    <div id='mail_fail' class='error'>Sorry, error occured this time sending your message.</div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="col-md-4 wow fadeInRight">
+
+                        <div class="widget_text">
+                            <h3>Contact Info</h3>
+                            <address>
+                                <span><strong>Location:</strong>Dublin, Ireland</span>
+                                <span><strong>Phone:</strong>087 332 1076</span>
+                                <span><strong>Email:</strong><a href="david.jumpseo@gmail.com"></a>david.jumpseo@gmail.com</span>
+                                <span><strong>Available:</strong>Monday - Saturday: 9am - 5:30pm</span>
+                            </address>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+        <!-- section close -->
+
 
             <!-- footer begin -->
             <footer class="light">
-                <div class="container">
-                    <div class="row">
-    
-    
-    
-    
-                        <div class="col-lg-3">
-                            <h3>Contact Us</h3>
-                            <div class="widget widget-address">
-                                <address>
-                                    <span><strong>Location:</strong>Dublin, Ireland</span>
-                                    <span><strong>Phone:</strong>087 332 1076</span>
-                                    <span><strong>Email:</strong><a href="david.jumpseo@gmail.com">david.jumpseo@gmail.com</a></span>
-                                </address>
-                            </div>
-                        </div>
-    
-                    </div>
-                </div>
+
     
                 <div class="subfooter">
                     <div class="container">
