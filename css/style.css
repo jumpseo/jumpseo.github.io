@@ -12350,6 +12350,9 @@ ul#slide-list{
 	height: 60px;
 }
 
+.crop-mobile{height:400px;}
+
+
 @media (max-width: 768px) {
 .section-testimonial{ background:none top fixed;}
 #view-all-projects, #call-to-action{padding:20px 0 20px 0;}
@@ -12382,7 +12385,7 @@ ul#slide-list{
 #subheader{
 	background:url(../images/background/contact_mobile.jpg) !important;
 	}
-.crop-mobile{object-fit:cover;}
+.crop-mobile{max-width: 100%; height: auto;}
 }
 
 @media (min-width: 769px) {
