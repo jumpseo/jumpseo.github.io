@@ -12408,5 +12408,7 @@ ul#slide-list{
 }
 
 .darken{filter: brightness(40%);}
+.no-padding-bottom{padding-bottom: 0px!important;}
+
 
 
