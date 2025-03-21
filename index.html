@@ -73,7 +73,7 @@
         <!-- content begin -->
         <div id="content" class="no-bottom no-top">
 			
-            <section id="section-hero" class="vertical-center v-center jarallax text-light" aria-label="section">
+            <section id="section-hero" class="vertical-center v-center jarallax text-light" aria-label="section" style="max-height: calc(var(--vh, 1vh) * 125);">
             	<img src="24_images-solar/bg/1.jpg" class="jarallax-img darken" alt="">
             	<div class="container">
 	                    <div class="row align-items-center">
@@ -435,6 +435,23 @@
 
     <script>
         document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+
+    
+    <script>
+        // This function sets the --vh custom property to the initial window height
+    function setViewportHeight() {
+        // First, get the viewport height and multiply it by 1% to get a value for a vh unit
+        let vh = window.innerHeight * 0.01;
+        // Then set the value in the --vh custom property
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+    }
+
+    // Run the function when the page is first loaded
+    setViewportHeight();
+
+    // Optionally, update the --vh variable on resize or orientation change
+    window.addEventListener('orientationchange', setViewportHeight);
     </script>
 
 </body>
