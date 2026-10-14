@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.jumpseo.ie/sitemap.xml
+Sitemap: https://jumpwebdesign.ie/sitemap.xml

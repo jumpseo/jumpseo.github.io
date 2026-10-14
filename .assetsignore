@@ -1,0 +1,10 @@
+# Not uploaded to Cloudflare: template leftovers that were never part of the site.
+.DS_Store
+**/.DS_Store
+CNAME
+src/
+vendor/
+revolution/
+**/*.php
+.git/
+.assetsignore
